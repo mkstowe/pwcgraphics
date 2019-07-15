@@ -1,0 +1,193 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+@font-face {
+    font-family: lato;
+    src: url("media/Lato-Regular.ttf");
+}
+
+/* ==========================================================================
+
+    Default | Small Screens
+
+   ========================================================================== */
+
+/* Main Layout
+   ============================================ */
+html, body, header h1{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    top: 0;
+    font-family: lato, sans-serif;
+    text-align: center;
+    height: 25vh;
+    background: url(media/header-background.png) repeat-x bottom center #191919;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+main {
+    font-family: "Lato", sans-serif;
+    position: absolute;
+    margin-top: 70px;
+    width: 90%;
+    padding: 10px;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    font-family: lato, sans-serif;
+    font-weight: 600;
+    background-color: #fcc605;
+    height: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+    z-index: 99;
+}
+
+nav li {
+    display: inline-block;
+    float: left;
+}
+
+nav a {
+    display: inline;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    margin: auto 10px;
+}
+
+#icon img {
+    position: absolute;
+    display: inline-block;
+    width: 35px;
+    right: 8%;
+    top: 8px;
+}
+
+#current {
+    color: #FFFFFF;
+}
+
+.dropdown {
+    width: 100px;
+    display: inline;
+    overflow: hidden;
+    margin: auto 10px;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding-bottom: 15px;
+    background-color: inherit;
+    font-family: inherit;
+}
+
+nav a:hover, .dropdown:hover .dropbtn {
+    color: #FFFFFF;
+    transition: 200ms;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 50px;
+    background-color: #FFFFFF;
+    color: #000000;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-size: 16px;
+    float: none;
+    color: black;
+    background-color: #FFFFFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+.dropdown-content a:hover {
+    color: #fcc605;
+    transition: 200ms;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition: 200ms;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+/* ==========================================================================
+
+    Large Screens
+
+   ========================================================================== */
+
+@media all and (min-width: 900px) {
+    main {
+        left: 5%;
+        margin-top: 90px;
+    }
+
+    nav {
+        height: 80px;
+    }
+
+    nav a {
+        padding-top: 5px;
+        display: block;
+        font-size: 28px;
+        margin: auto 20px;
+    }
+
+    .dropdown .dropbtn {
+        padding: 5px 0 60px 0;
+        margin: auto 20px;
+        font-size: 28px;
+        height: 28px;
+    }
+
+    .dropdown-content {
+        top: 80px;
+        right: initial;
+        min-width: 200px;
+    }
+
+    .dropdown-content a {
+        width: initial;
+    }
+
+    .first {
+        margin-left: 100px;
+    }
+
+    #icon img {
+        width: 50px;
+        right: 15%;
+        top: 15px;
+        /*top: calc(20vh + 55px);*/
+    }
+}
