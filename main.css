@@ -42,13 +42,15 @@ header a {
 
 #facebook {
     position: absolute;
-    right: 8%;
     font-size: 32px;
-    top: 80px;
+    top: calc(25vh + 50px + 700px);
+    left: 12%;
+    z-index: 99999999;
+    color: #FFFFFF;
 }
 
 #fb_circle {
-    color: #FFFFFF;
+    color: #000000;
     transition: 200ms;
 }
 
@@ -62,7 +64,7 @@ header a {
     position: absolute;
     color: #FFFFFF;
     top: 8px;
-    right: 8%;
+    right: 3%;
     font-size: 16px;
     transition: 200ms;
 }
@@ -119,7 +121,7 @@ nav a {
 }
 
 nav li:first-child {
-    left: 5%;
+    margin-left: -25px;
 }
 
 #current {
@@ -183,6 +185,38 @@ nav a:hover, .dropdown:hover .dropbtn {
     transition: 200ms;
 }
 
+#categories {
+    display: inline-block;
+    position: absolute;
+    margin-top: 130px;
+    /*margin-left: 60px;*/
+    /*margin-top: 150px;*/
+    width: 20%;
+    font-weight: 600;
+}
+
+#categories a, #categories h2 {
+    display: block;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 20px 20px 20px 30px;
+    border-top: 1px solid gray;
+    text-decoration: none;
+}
+
+#categories h2 {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+li {
+    list-style-type:none;
+}
+
 /* Sticky Header */
 .sticky {
     position: fixed;
@@ -199,8 +233,12 @@ nav a:hover, .dropdown:hover .dropbtn {
     /* Main Layout
    ============================================ */
     main {
-        left: 5%;
+        position: relative;
+        display: inline-block;
+        left: 25%;
         margin-top: 90px;
+        margin-left: 20px;
+        width: 55%;
     }
 
     /* Navigation
@@ -213,11 +251,11 @@ nav a:hover, .dropdown:hover .dropbtn {
         display: block;
         font-size: 24px;
         padding-top: 10px;
-        margin: 0 40px 0 0;
+        margin: 0 30px 0 0;
     }
 
     nav li:first-child {
-        margin-left: 10%;
+        margin-left: 5%;
     }
 
     .dropdown .dropbtn {
@@ -236,11 +274,43 @@ nav a:hover, .dropdown:hover .dropbtn {
         width: initial;
     }
 
-    #facebook {
-        font-size: 32px;
-    }
+    /*#facebook {*/
+    /*    top: 8px;*/
+    /*    font-size: 32px;*/
+    /*    margin-right: 25px;*/
+    /*    right: 6%;*/
+    /*}*/
 
     #cart {
         font-size: 32px;
+        right: 1%;
+    }
+
+    #categories {
+        display: inline-block;
+        position: absolute;
+        margin-top: 130px;
+        /*margin-left: 60px;*/
+        /*margin-top: 150px;*/
+        margin-left: 2%;
+        width: 20%;
+        font-weight: 600;
+    }
+
+    #categories a, #categories h2 {
+        display: block;
+        font-family: "Lato", sans-serif;
+        font-size: 24px;
+        color: #FFFFFF;
+        background-color: #000000;
+        padding: 20px 20px 20px 30px;
+        border-top: 1px solid gray;
+    }
+
+    #categories h2 {
+        margin: 0;
+        padding-left: 20px;
+        font-size: 40px;
+        text-align: center;
     }
 }

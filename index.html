@@ -13,12 +13,6 @@
     <body>
     <header>
         <a href="index.html"><img alt="Logo" class="logo" src="media/logo.png"></a>
-        <a href="https://www.facebook.com/pwcgraphics" target="_blank" rel="noreferrer">
-            <span id="facebook" class="fa-stack">
-                <i id="fb_circle" class="fa fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook-f fa-stack-1x"></i>
-            </span>
-        </a>
     </header>
 
     <nav id="navbar">
@@ -28,21 +22,21 @@
             <li><a href="https://www.facebook.com/pg/pwcgraphics/photos/?ref=page_internal"
                    target="_blank" rel="noreferrer">GALLERY</a></li>
             <li><a href="contact.html">CONTACT</a></li>
-<!--            <li>-->
-<!--                <div class="dropdown">-->
-<!--                    <button class="dropbtn">RESOURCES-->
-<!--                        <i class="fa fa-caret-down"></i>-->
-<!--                    </button>-->
-<!--                    <div class="dropdown-content">-->
-<!--                        <a href="resources_html/color_chart.html">Color Chart</a>-->
-<!--                        <a href="resources_html/fonts.html">Fonts</a>-->
-<!--                        <a href="resources_html/text_effects.html">Text Effects</a>-->
-<!--                        <a href="resources_html/install_guide.html">Install Guide</a>-->
-<!--                        <a href="resources_html/return_policy.html">Return Policy</a>-->
-<!--                        <a href="resources_html/links.html">Links</a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </li>-->
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">RESOURCES
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="resources_html/color_chart.html">Color Chart</a>
+                        <a href="resources_html/fonts.html">Fonts</a>
+                        <a href="resources_html/text_effects.html">Text Effects</a>
+                        <a href="resources_html/install_guide.html">Install Guide</a>
+                        <a href="resources_html/return_policy.html">Return Policy</a>
+                        <a href="resources_html/links.html">Links</a>
+                    </div>
+                </div>
+            </li>
             <li>
                 <a href="cart.html">
                 <span id="cart" class="fa-stack">
@@ -53,6 +47,27 @@
             </li>
         </ul>
     </nav>
+
+    <div>
+        <ul id="categories">
+            <li><h2>CATEGORIES</h2></li>
+            <li><a href="categories_html/kawasaki.html">KAWASAKI</a></li>
+            <li><a href="categories_html/seadoo.html">SEA-DOO</a></li>
+            <li><a href="categories_html/yamaha.html">YAMAHA</a></li>
+            <li><a href="categories_html/polaris.html">POLARIS</a></li>
+            <li><a href="categories_html/registration_nums.html">REGISTRATION
+                NUMBERS</a></li>
+            <li><a href="categories_html/race_nums.html">RACE NUMBERS</a></li>
+            <li><a href="categories_html/logos.html">LOGOS</a></li>
+        </ul>
+        <a href="https://www.facebook.com/pwcgraphics" target="_blank" rel="noreferrer">
+                <span id="facebook" class="fa-stack">
+                    <i id="fb_circle" class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                </span>
+        </a>
+    </div>
+
 
     <main>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl dolor,
@@ -289,7 +304,7 @@
     // "sticky" when you leave the scroll position
     function stickyNav() {
         if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
+            navbar.classList.add("sticky");
         } else {
             navbar.classList.remove("sticky");
         }
@@ -297,11 +312,11 @@
 
     // change Facebook icon color on hover
     document.getElementById("facebook").onmouseover = function() {
-        document.getElementById("fb_circle").style.color = "#fcc605";
+        document.getElementById("fb_circle").style.color = "#292929";
     };
 
     document.getElementById("facebook").onmouseleave = function() {
-        document.getElementById("fb_circle").style.color = "#ffffff";
+        document.getElementById("fb_circle").style.color = "#000000";
     };
 
     // change cart icon on hover
