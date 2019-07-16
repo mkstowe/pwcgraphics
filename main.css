@@ -36,30 +36,60 @@ header {
 }
 
 header a {
-    color: #FFFFFF;
     text-decoration: none;
+    color: #000000;
 }
 
-#icon img {
-    display: inline-block;
+#facebook {
     position: absolute;
+    right: 8%;
+    font-size: 32px;
+    top: 80px;
+}
+
+#fb_circle {
+    color: #FFFFFF;
+    transition: 200ms;
+}
+
+.logo {
+    position: relative;
+    top: 12.5%;
+    height: 75%;
+}
+
+#cart {
+    position: absolute;
+    color: #FFFFFF;
     top: 8px;
     right: 8%;
-    width: 35px;
+    font-size: 16px;
+    transition: 200ms;
+}
+
+#cart_circle {
+    color: #000000;
 }
 
 main {
-    width: 90%;
+    width: 85%;
     font-family: "Lato", sans-serif;
     padding: 10px 10px 10px 50px;
     margin-top: 70px;
 }
 
 footer {
-    height: 25vh;
+    height: 60px;
     bottom: 0;
     width: 100%;
+    font-family: lato, sans-serif;
+    text-align: center;
+    color: #FFFFFF;
     background: url(media/footer_background.png) repeat-x center top #191919;
+}
+
+footer p {
+    padding-top: 15px;
 }
 
 /* Navigation
@@ -86,6 +116,10 @@ nav a {
     text-decoration: none;
     color: #000000;
     margin: auto 10px;
+}
+
+nav li:first-child {
+    left: 5%;
 }
 
 #current {
@@ -164,12 +198,6 @@ nav a:hover, .dropdown:hover .dropbtn {
 @media all and (min-width: 900px) {
     /* Main Layout
    ============================================ */
-    #icon img {
-        top: 15px;
-        right: 10%;
-        width: 50px;
-    }
-
     main {
         left: 5%;
         margin-top: 90px;
@@ -206,5 +234,13 @@ nav a:hover, .dropdown:hover .dropbtn {
 
     .dropdown-content a {
         width: initial;
+    }
+
+    #facebook {
+        font-size: 32px;
+    }
+
+    #cart {
+        font-size: 32px;
     }
 }
