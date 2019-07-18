@@ -1,316 +1,306 @@
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-    display: block;
+  display: block;
 }
 
 @font-face {
-    font-family: lato;
-    src: url("media/Lato-Regular.ttf");
+  font-family: lato;
+  src: url("media/Lato-Regular.ttf");
 }
-
-/* ==========================================================================
-
-    Default | Small Screens
-
-   ========================================================================== */
-
-/* Main Layout
-   ============================================ */
-html, body, header h1{
-    padding: 0;
-    margin: 0;
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: lato, sans-serif;
+  font-size: calc(0.6em + 0.5vw);
 }
 
 #page-container {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  height: 100%;
 }
 
 header {
-    top: 0;
-    height: 25vh;
-    font-family: lato, sans-serif;
-    text-align: center;
-    background: url(media/header-background.png) repeat-x bottom center #191919;
+  position: relative;
+  z-index: 99;
+  top: 0;
+  height: 30vh;
+  text-align: center;
+  background: url(media/header-background.png) repeat-x bottom center #191919;
 }
-
-header a {
-    text-decoration: none;
-    color: #000000;
+header #logo-helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
-
-#facebook {
-    position: absolute;
-    font-size: 32px;
-    top: calc(25vh + 50px + 700px);
-    left: 12%;
-    z-index: 99999999;
-    color: #FFFFFF;
-}
-
-#fb_circle {
-    color: #000000;
-    transition: 200ms;
-}
-
-.logo {
-    position: relative;
-    top: 12.5%;
-    height: 75%;
-}
-
-#cart {
-    position: absolute;
-    color: #FFFFFF;
-    top: 8px;
-    right: 3%;
-    font-size: 16px;
-    transition: 200ms;
-}
-
-#cart_circle {
-    color: #000000;
+header #logo {
+  display: inline-block;
+  height: 75%;
+  vertical-align: middle;
 }
 
 main {
-    width: 85%;
-    font-family: "Lato", sans-serif;
-    padding: 10px 10px 10px 50px;
-    margin-top: 70px;
+  display: inline-block;
+  width: 60%;
+  margin-top: 30px;
+  margin-left: 5%;
 }
 
 footer {
-    height: 60px;
-    bottom: 0;
-    width: 100%;
-    font-family: lato, sans-serif;
-    text-align: center;
-    color: #FFFFFF;
-    background: url(media/footer_background.png) repeat-x center top #191919;
+  width: 100%;
+  height: 60px;
+  font-size: 16px;
+  text-align: center;
+  color: #F3F3F3;
+  background: url(media/footer_background.png) repeat-x center top #191919;
 }
-
 footer p {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
-/* Navigation
-   ============================================ */
 nav {
-    position: absolute;
-    z-index: 99;
-    width: 100%;
-    height: 50px;
-    font-family: lato, sans-serif;
-    font-weight: 600;
-    background-color: #fcc605;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 80px;
+  background-color: #FCC605;
+  font-weight: 600;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
 }
-
+nav ul {
+  margin: 0;
+}
 nav li {
-    display: inline-block;
-    float: left;
+  display: inline-block;
+  float: left;
 }
-
-nav a {
-    display: inline;
-    font-size: 14px;
-    text-decoration: none;
-    color: #000000;
-    margin: auto 10px;
-}
-
 nav li:first-child {
-    margin-left: -25px;
+  margin-left: 5%;
+}
+nav a {
+  position: relative;
+  display: inline;
+  margin: 0 30px 0 0;
+  font-size: 24px;
+  color: #2D2D2D;
+  text-decoration: none;
+  line-height: 80px;
+}
+nav a:hover {
+  color: #F3F3F3;
+  transition: 200ms;
+}
+nav #current {
+  color: #F3F3F3;
+}
+nav #cart {
+  float: right;
+  margin-top: 8px;
+  margin-right: 5%;
+  font-size: 32px;
+  color: #F3F3F3;
+  transition: 200ms;
+}
+nav #cart #cart-circle {
+  color: #2D2D2D;
 }
 
-#current {
-    color: #FFFFFF;
-}
-
-/* Dropdown */
 .dropdown {
-    display: inline;
-    width: 100px;
-    margin: auto 5px;
-    overflow: hidden;
+  display: inline;
+  width: 100px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.dropdown #dropbtn {
+  border: none;
+  outline: none;
+  margin: -2px;
+  background-color: inherit;
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: 600;
+  color: #2D2D2D;
+  line-height: 80px;
+}
+.dropdown #dropbtn:hover {
+  color: #F3F3F3;
+  transition: 200ms;
+}
+.dropdown #dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  min-width: 160px;
+  float: left;
+  background-color: #F3F3F3;
+  color: #2D2D2D;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+.dropdown #dropdown-content a {
+  display: block;
+  width: 100%;
+  float: none;
+  padding: 0 10px;
+  background-color: #F3F3F3;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: left;
+  color: #2D2D2D;
+}
+.dropdown #dropdown-content a:hover {
+  color: #FCC605;
+  transition: 200ms;
 }
 
-.dropdown .dropbtn {
-    font-family: inherit;
-    font-weight: 600;
-    font-size: 14px;
-    text-transform: capitalize;
-    border: none;
-    outline: none;
-    padding-bottom: 15px;
-    background-color: inherit;
+.dropdown:hover #dropdown-content {
+  display: block;
+  transition: 200ms;
 }
 
-nav a:hover, .dropdown:hover .dropbtn {
-    color: #FFFFFF;
-    transition: 200ms;
+#menu {
+  float: left;
+  margin-top: 50px;
+  margin-left: 5%;
+}
+#menu #side-nav {
+  display: inline-block;
+  font-weight: 600;
+}
+#menu #side-nav #dropbtn-cat {
+  text-align: center;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px 0;
+  font-size: calc(1.5em + 1vh);
+  font-family: inherit;
+  font-weight: 600;
+  color: #F3F3F3;
+  background-color: #2D2D2D;
+}
+#menu #side-nav #dropbtn-cat .fa-caret-down {
+  display: none;
+}
+#menu #side-nav a {
+  display: block;
+  padding: 20px 20px 20px 30px;
+  border-top: 1px solid #414141;
+  background-color: #2D2D2D;
+  color: #F3F3F3;
+  text-decoration: none;
+}
+#menu #side-nav a:hover {
+  background-color: #414141;
+}
+#menu #side-nav #current-cat {
+  background-color: #414141;
+}
+#menu #facebook {
+  z-index: -1;
+  margin-top: 10px;
+  font-size: 32px;
+  color: #F3F3F3;
+  transition: 200ms;
+}
+#menu #facebook #fb-circle {
+  color: #2D2D2D;
+}
+#menu #facebook a {
+  color: #F3F3F3;
+}
+#menu #center {
+  display: table;
+  margin: 0 auto;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    right: 50px;
-    min-width: 160px;
-    color: #000000;
-    background-color: #FFFFFF;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
+@media only screen and (max-width: 1050px) {
+  header {
+    height: 35vh;
+  }
 
-.dropdown-content a {
+  main {
+    font-size: calc(0.75em + 1vw);
+  }
+
+  nav {
+    height: 50px;
+  }
+  nav a {
+    font-size: 16px;
+    line-height: 50px;
+  }
+  nav #cart {
+    font-size: 16px;
+  }
+
+  #menu {
+    width: 25%;
+  }
+
+  .dropdown #dropbtn {
+    font-size: 16px;
+    line-height: 50px;
+  }
+
+  #facebook {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  header #logo {
+    height: 60%;
+  }
+
+  main {
+    display: block;
+    width: 90%;
+    font-size: 16px;
+  }
+
+  nav a {
+    font-size: 12px;
+    margin-right: 15px;
+  }
+  nav li:first-child {
+    margin-left: 2%;
+  }
+  nav #cart {
+    margin-right: 2%;
+  }
+
+  .dropdown #dropdown-content {
+    min-width: 100px;
+  }
+  .dropdown #dropbtn {
+    font-size: 12px;
+  }
+
+  #menu {
     display: block;
     width: 100%;
-    float: none;
-    font-size: 16px;
-    text-decoration: none;
-    text-align: left;
-    padding: 12px 16px;
-    color: black;
-    background-color: #FFFFFF;
-}
-
-.dropdown-content a:hover {
-    color: #fcc605;
-    transition: 200ms;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    transition: 200ms;
-}
-
-#categories {
-    display: inline-block;
-    position: absolute;
-    margin-top: 130px;
-    /*margin-left: 60px;*/
-    /*margin-top: 150px;*/
-    width: 20%;
-    font-weight: 600;
-}
-
-#categories a, #categories h2 {
-    display: block;
-    font-family: "Lato", sans-serif;
-    font-size: 24px;
-    color: #FFFFFF;
-    background-color: #000000;
-    padding: 20px 20px 20px 30px;
-    border-top: 1px solid gray;
-    text-decoration: none;
-}
-
-#categories h2 {
-    margin: 0;
-    padding-left: 20px;
-    font-size: 40px;
+    margin: 15px 0;
     text-align: center;
+    font-size: 18px;
+  }
+  #menu #side-nav a {
+    padding: 20px;
+  }
+  #menu #side-nav #dropbtn-cat {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #menu #side-nav #dropbtn-cat .fa-caret-down {
+    display: initial;
+  }
+  #menu #side-nav #dropbtn-cat:target {
+    background-color: #414141;
+    transition: 200ms;
+  }
+  #menu #side-nav #dropdown-content-cat {
+    display: none;
+  }
+
+  #facebook {
+    margin-left: 0;
+  }
 }
 
-li {
-    list-style-type:none;
-}
-
-/* Sticky Header */
-.sticky {
-    position: fixed;
-    top: 0;
-}
-
-/* ==========================================================================
-
-    Large Screens
-
-   ========================================================================== */
-
-@media all and (min-width: 900px) {
-    /* Main Layout
-   ============================================ */
-    main {
-        position: relative;
-        display: inline-block;
-        left: 25%;
-        margin-top: 90px;
-        margin-left: 20px;
-        width: 55%;
-    }
-
-    /* Navigation
-   ============================================ */
-    nav {
-        height: 80px;
-    }
-
-    nav a {
-        display: block;
-        font-size: 24px;
-        padding-top: 10px;
-        margin: 0 30px 0 0;
-    }
-
-    nav li:first-child {
-        margin-left: 5%;
-    }
-
-    .dropdown .dropbtn {
-        height: 28px;
-        font-size: 24px;
-        padding: 10px 0 55px 0;
-    }
-
-    .dropdown-content {
-        top: 80px;
-        right: initial;
-        min-width: 200px;
-    }
-
-    .dropdown-content a {
-        width: initial;
-    }
-
-    /*#facebook {*/
-    /*    top: 8px;*/
-    /*    font-size: 32px;*/
-    /*    margin-right: 25px;*/
-    /*    right: 6%;*/
-    /*}*/
-
-    #cart {
-        font-size: 32px;
-        right: 1%;
-    }
-
-    #categories {
-        display: inline-block;
-        position: absolute;
-        margin-top: 130px;
-        /*margin-left: 60px;*/
-        /*margin-top: 150px;*/
-        margin-left: 2%;
-        width: 20%;
-        font-weight: 600;
-    }
-
-    #categories a, #categories h2 {
-        display: block;
-        font-family: "Lato", sans-serif;
-        font-size: 24px;
-        color: #FFFFFF;
-        background-color: #000000;
-        padding: 20px 20px 20px 30px;
-        border-top: 1px solid gray;
-    }
-
-    #categories h2 {
-        margin: 0;
-        padding-left: 20px;
-        font-size: 40px;
-        text-align: center;
-    }
-}
+/*# sourceMappingURL=main.css.map */
