@@ -26,20 +26,10 @@ function openTopMenu() {
     }
 }
 
-function openSideMenu() {
-    document.getElementById("dropdown-content-cat").style.display = "block";
-}
-
 window.onclick = function (event) {
     if (window.innerWidth < 680) {
         if (event.target !== document.getElementById("dropbtn")) {
             document.getElementById("dropdown-content").style.display = "none";
-        }
-    }
-
-    if (window.innerWidth < 680) {
-        if (event.target !== document.getElementById("dropbtn-cat")) {
-            document.getElementById("dropdown-content-cat").style.display = "none";
         }
     }
 };

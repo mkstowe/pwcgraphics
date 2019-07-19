@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d86e47d-34fd-4784-ad59-10e6ef9ecd39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories_html/kawasaki.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories_html/kawasaki.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories_html/logos.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories_html/logos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories_html/polaris.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories_html/polaris.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories_html/race_nums.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories_html/race_nums.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories_html/registration_nums.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories_html/registration_nums.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories_html/seadoo.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories_html/seadoo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories_html/yamaha.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories_html/yamaha.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources_html/color_chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources_html/color_chart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources_html/fonts.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources_html/fonts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources_html/install_guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources_html/install_guide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources_html/links.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources_html/links.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources_html/return_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources_html/return_policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources_html/text_effects.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources_html/text_effects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,17 +25,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="184" column="14" selection-start-line="184" selection-start-column="14" selection-end-line="184" selection-end-column="14" />
+            <state relative-caret-position="1015">
+              <caret line="233" column="40" lean-forward="true" selection-start-line="233" selection-start-column="40" selection-end-line="233" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources_html/color_chart.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1015">
-              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+            <state relative-caret-position="203">
+              <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -97,8 +90,6 @@
         <option value="$PROJECT_DIR$/old.html" />
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/old.css" />
-        <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/cart.html" />
         <option value="$PROJECT_DIR$/products.html" />
@@ -115,6 +106,8 @@
         <option value="$PROJECT_DIR$/categories_html/yamaha.html" />
         <option value="$PROJECT_DIR$/resources_html/color_chart.html" />
         <option value="$PROJECT_DIR$/resources_html/install_guide.html" />
+        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main.scss" />
       </list>
     </option>
@@ -137,11 +130,6 @@
             <path>
               <item name="pwcgraphics" type="b2602c69:ProjectViewProjectNode" />
               <item name="pwcgraphics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pwcgraphics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwcgraphics" type="462c0819:PsiDirectoryNode" />
-              <item name="resources_html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pwcgraphics" type="b2602c69:ProjectViewProjectNode" />
@@ -213,19 +201,22 @@
       <workItem from="1563308249792" duration="18954000" />
       <workItem from="1563368017940" duration="16900000" />
       <workItem from="1563391694928" duration="852000" />
-      <workItem from="1563397035048" duration="8791000" />
+      <workItem from="1563397035048" duration="9048000" />
+      <workItem from="1563410552072" duration="450000" />
+      <workItem from="1563453410317" duration="4714000" />
+      <workItem from="1563539381856" duration="8197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102608000" />
+    <option name="totallyTimeSpent" value="116226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="134" y="43" width="3106" height="2117" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15540093" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1616965" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32974717" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -263,26 +254,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-377">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jquery.js" />
     <entry file="file://$PROJECT_DIR$/jquery.sticky.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/old.html" />
     <entry file="file://$PROJECT_DIR$/old.css" />
-    <entry file="file://$PROJECT_DIR$/photos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/photos.html" />
     <entry file="file://$PROJECT_DIR$/cart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1160">
@@ -294,20 +272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
           <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" lean-forward="true" selection-end-line="229" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -402,6 +366,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources_html/color_chart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1015">
@@ -409,10 +380,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="184" column="14" selection-start-line="184" selection-start-column="14" selection-end-line="184" selection-end-column="14" />
+        <state relative-caret-position="1015">
+          <caret line="233" column="40" lean-forward="true" selection-start-line="233" selection-start-column="40" selection-end-line="233" selection-end-column="40" />
         </state>
       </provider>
     </entry>
