@@ -28,26 +28,79 @@ header {
   text-align: center;
   background: url(media/header-background.png) repeat-x bottom center #191919;
 }
-header #logo-helper {
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-}
 header #logo {
   display: inline-block;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 10%;
-  margin: auto;
   height: 75%;
+  max-height: 200px;
+  margin: auto;
+}
+header #socials {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  margin: 0;
+  transform: translateY(-50%);
+}
+header #socials #facebook {
+  font-size: 32px;
+  color: #2D2D2D;
+}
+header #socials #facebook #fb-circle {
+  color: #F3F3F3;
+  transition: 200ms;
+}
+header #socials #facebook a {
+  color: #2D2D2D;
+}
+header #socials #twitter {
+  font-size: 32px;
+  color: #2D2D2D;
+}
+header #socials #twitter #twitter-circle {
+  color: #F3F3F3;
+  transition: 200ms;
+}
+header #socials #twitter a {
+  color: #2D2D2D;
+}
+header #socials #insta {
+  font-size: 32px;
+  color: #2D2D2D;
+}
+header #socials #insta #ig-circle {
+  color: #F3F3F3;
+  transition: 200ms;
+}
+header #socials #insta a {
+  color: #2D2D2D;
+}
+
+#name-bar {
+  width: 100%;
+  height: 90px;
+  background-color: #2D2D2D;
+  color: #F3F3F3;
+  padding-top: 1px;
+}
+#name-bar h2 {
+  margin-top: 0;
+  margin-left: 10%;
+  font-size: 38px;
+  line-height: 90px;
 }
 
 .home-image {
   display: block;
-  margin-bottom: 50px;
+  position: relative;
+  z-index: -1;
   width: 100%;
   height: 50%;
+  margin-bottom: 50px;
 }
 
 main {
@@ -69,21 +122,24 @@ footer p {
 }
 
 nav {
+  z-index: 99;
   width: 100%;
-  height: 80px;
+  height: 90px;
   background-color: #FCC605;
   font-weight: 600;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
 }
 nav ul {
   margin: 0;
+  padding-left: 0;
+  list-style: none;
 }
 nav li {
   display: inline-block;
   float: left;
 }
 nav li:first-child {
-  margin-left: 5%;
+  margin-left: 10%;
 }
 nav a {
   position: relative;
@@ -92,7 +148,7 @@ nav a {
   font-size: 24px;
   color: #2D2D2D;
   text-decoration: none;
-  line-height: 80px;
+  line-height: 90px;
 }
 nav a:hover {
   color: #F3F3F3;
@@ -104,7 +160,7 @@ nav #current {
 nav #cart {
   float: right;
   margin-top: 8px;
-  margin-right: 5%;
+  margin-right: 10%;
   font-size: 32px;
   color: #F3F3F3;
   transition: 200ms;
@@ -129,7 +185,7 @@ nav #cart #cart-circle {
   font-family: inherit;
   font-weight: 600;
   color: #2D2D2D;
-  line-height: 80px;
+  line-height: 90px;
 }
 .dropdown #dropbtn:hover {
   color: #F3F3F3;
@@ -168,7 +224,7 @@ nav #cart #cart-circle {
 
 #menu {
   float: left;
-  margin-left: 5%;
+  margin-left: calc(5% + 40px);
   width: 15%;
   font-size: calc(0.8em + 0.5vw);
 }
@@ -177,7 +233,7 @@ nav #cart #cart-circle {
   font-weight: 600;
   width: 100%;
 }
-#menu #side-nav h2 {
+#menu #side-nav h3 {
   display: block;
   margin: 0;
   padding-top: 20px;
@@ -198,31 +254,21 @@ nav #cart #cart-circle {
 }
 #menu #side-nav a:hover {
   background-color: #414141;
+  transition: 200ms;
 }
 #menu #side-nav #current-cat {
   background-color: #414141;
 }
-#menu #facebook {
-  z-index: -1;
-  margin-top: 10px;
-  font-size: 32px;
-  color: #F3F3F3;
-  transition: 200ms;
-}
-#menu #facebook #fb-circle {
-  color: #2D2D2D;
-}
-#menu #facebook a {
-  color: #F3F3F3;
-}
-#menu #center {
-  display: table;
-  margin: 0 auto;
-}
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1060px) {
   header {
-    height: 35vh;
+    height: 30vh;
+  }
+  header #logo {
+    max-height: 150px;
+  }
+  header #socials #facebook, header #socials #twitter, header #socials #insta {
+    font-size: 24px;
   }
 
   main {
@@ -230,14 +276,18 @@ nav #cart #cart-circle {
   }
 
   nav {
-    height: 50px;
+    height: 65px;
   }
   nav a {
-    font-size: 16px;
-    line-height: 50px;
+    font-size: 18px;
+    line-height: 65px;
+  }
+  nav li:first-child {
+    margin-left: 5%;
   }
   nav #cart {
-    font-size: 16px;
+    margin-right: 5%;
+    font-size: 24px;
   }
 
   #menu {
@@ -245,20 +295,31 @@ nav #cart #cart-circle {
   }
 
   .dropdown #dropbtn {
-    font-size: 16px;
-    line-height: 50px;
-  }
-
-  #facebook {
-    font-size: 24px;
+    font-size: 18px;
+    line-height: 65px;
   }
 }
 @media only screen and (max-width: 680px) {
-  header #logo {
-    position: initial;
-    vertical-align: middle;
-    float: none;
+  header {
     height: 60%;
+  }
+  header #logo-helper {
+    height: 50%;
+  }
+  header #logo-helper #logo {
+    position: initial;
+    height: initial;
+    max-height: 90%;
+    width: 90%;
+    margin-top: 8%;
+  }
+  header #socials {
+    display: block;
+    position: initial;
+    margin-top: 70px;
+  }
+  header #socials #facebook, header #socials #twitter, header #socials #insta {
+    font-size: 3em;
   }
 
   .home-image {
@@ -269,6 +330,7 @@ nav #cart #cart-circle {
     display: block;
     width: 90%;
     margin-left: 5%;
+    margin-right: 5%;
     font-size: 16px;
   }
 
@@ -277,10 +339,10 @@ nav #cart #cart-circle {
     margin-right: 15px;
   }
   nav li:first-child {
-    margin-left: 2%;
+    margin-left: 5%;
   }
   nav #cart {
-    margin-right: 2%;
+    margin-right: 5%;
   }
 
   .dropdown #dropdown-content {
@@ -292,10 +354,6 @@ nav #cart #cart-circle {
 
   #menu {
     display: none;
-  }
-
-  #facebook {
-    margin-left: 0;
   }
 }
 

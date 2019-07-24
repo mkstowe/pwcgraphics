@@ -1,10 +1,28 @@
 // Change Facebook icon color on hover
 document.getElementById("facebook").onmouseover = function () {
-    document.getElementById("fb-circle").style.color = "#414141";
+    document.getElementById("fb-circle").style.color = "#FCC605";
 };
 
 document.getElementById("facebook").onmouseleave = function () {
-    document.getElementById("fb-circle").style.color = "#2D2D2D";
+    document.getElementById("fb-circle").style.color = "#F3F3F3";
+};
+
+// Change Twitter icon color on hover
+document.getElementById("twitter").onmouseover = function () {
+    document.getElementById("twitter-circle").style.color = "#FCC605";
+};
+
+document.getElementById("twitter").onmouseleave = function () {
+    document.getElementById("twitter-circle").style.color = "#F3F3F3";
+};
+
+// Change Instagram icon color on hover
+document.getElementById("insta").onmouseover = function () {
+    document.getElementById("ig-circle").style.color = "#FCC605";
+};
+
+document.getElementById("insta").onmouseleave = function () {
+    document.getElementById("ig-circle").style.color = "#F3F3F3";
 };
 
 // Change cart icon on hover
