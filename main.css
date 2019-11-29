@@ -100,7 +100,6 @@ header #socials #insta a {
   position: relative;
   z-index: -1;
   width: 100%;
-  height: 55%;
   margin-bottom: 50px;
 }
 
@@ -255,7 +254,7 @@ nav #cart #cart-circle {
 }
 #menu #side-nav a {
   display: block;
-  padding: 20px 20px 20px 30px;
+  padding: 20px 15%;
   border-top: 1px solid #414141;
   background-color: #2D2D2D;
   color: #F3F3F3;
@@ -308,6 +307,10 @@ nav #cart #cart-circle {
     line-height: 65px;
   }
 }
+.home-image {
+  margin-top: -25px;
+}
+
 @media only screen and (max-width: 680px) {
   header {
     height: 60%;
