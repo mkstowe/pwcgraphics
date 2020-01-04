@@ -3,10 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="0d86e47d-34fd-4784-ad59-10e6ef9ecd39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories_html/kawasaki.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories_html/kawasaki.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories_html/logos.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories_html/logos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories_html/polaris.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories_html/polaris.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories_html/race_nums.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories_html/race_nums.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories_html/registration_nums.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories_html/registration_nums.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories_html/seadoo.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories_html/seadoo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories_html/yamaha.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories_html/yamaha.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources_html/color_chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources_html/color_chart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources_html/fonts.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources_html/fonts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources_html/install_guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources_html/install_guide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources_html/links.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources_html/links.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources_html/return_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources_html/return_policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources_html/text_effects.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources_html/text_effects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +128,8 @@
       <workItem from="1576887791642" duration="24000" />
       <workItem from="1577068128985" duration="556000" />
       <workItem from="1577409367648" duration="12179000" />
+      <workItem from="1578107597866" duration="5827000" />
+      <workItem from="1578115769757" duration="3618000" />
     </task>
     <servers />
   </component>

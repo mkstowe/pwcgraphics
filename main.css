@@ -100,17 +100,17 @@ header #socials #insta a {
   position: relative;
   z-index: -1;
   width: 100%;
-  margin-bottom: 50px;
 }
 
 main {
   display: inline-block;
   width: 50%;
   margin-left: 5%;
+  margin-top: 50px;
+  min-height: 100vh;
 }
 
 footer {
-  width: 100%;
   height: 60px;
   font-size: 16px;
   text-align: center;
@@ -118,7 +118,6 @@ footer {
   background: url(media/footer_background.png) repeat-x center top #191919;
 }
 footer p {
-  margin: auto;
   padding-top: 15px;
 }
 
@@ -167,7 +166,7 @@ nav #current {
 }
 nav #cart {
   float: right;
-  margin-top: 8px;
+  margin-top: 10px;
   margin-right: 10%;
   font-size: 32px;
   color: #F3F3F3;
@@ -219,6 +218,9 @@ nav #cart #cart-circle {
   color: #FCC605;
   transition: 200ms;
 }
+.dropdown #dropdown-content #current-other {
+  color: #FCC605;
+}
 
 .dropdown:hover #dropdown-content {
   display: block;
@@ -227,7 +229,9 @@ nav #cart #cart-circle {
 
 #menu {
   float: left;
+  clear: both;
   margin-left: calc(5% + 40px);
+  margin-top: 50px;
   width: 15%;
   font-size: calc(0.8em + 0.5vw);
 }
@@ -264,9 +268,6 @@ nav #cart #cart-circle {
 }
 
 @media only screen and (max-width: 1060px) {
-  header {
-    height: 30vh;
-  }
   header #logo {
     max-height: 150px;
   }
