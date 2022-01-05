@@ -23,5 +23,11 @@
     a {
         color: $black;
         font-size: 24px;
+        transition: $transition;
+
+        &:hover {
+            color: $white;
+            transition: $transition;
+        }
     }
 }

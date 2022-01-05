@@ -46,18 +46,35 @@
 }
 
 .main-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
-    flex: 1;
+  flex: 1;
 
-    app-sidenav {
-    }
+  app-sidenav {
+    width: 15%;
+
+    margin: 50px 0 50px calc(5% + 40px);
+  }
+
+  .content-area {
+    flex-grow: 1;
+
+    margin: 50px;
+  }
 }
 
 footer {
   background: url(/assets/img/footer_background.png) repeat-x top center #191919;
   height: 60px;
   color: $white;
+  display: flex;
+  align-items: center;
+
+  p {
+    font-size: 16px;
+    text-align: center;
+    flex-grow: 1;
+  }
 }

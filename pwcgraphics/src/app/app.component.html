@@ -1,24 +1,26 @@
 <div class="app-wrapper">
-<div class="top-section">
-  <header>
-    <div class="logo-container">
-      <img src="/assets/img/logo.png" alt="logo" />
+  <div class="top-section">
+    <header>
+      <div class="logo-container">
+        <a routerLink="">
+          <img src="/assets/img/logo.png" alt="logo" />
+        </a>
+      </div>
+
+      <app-socials></app-socials>
+    </header>
+
+    <app-topnav></app-topnav>
+  </div>
+
+  <div class="main-section">
+    <app-sidenav></app-sidenav>
+    <div class="content-area">
+      <router-outlet></router-outlet>
     </div>
+  </div>
 
-    <app-socials></app-socials>
-  </header>
-
-  <app-topnav></app-topnav>
+  <footer>
+    <p>&copy; Copyright - PWC Graphics/Signs Unlimited 2010 - {{ year }}</p>
+  </footer>
 </div>
-
-<div class="main-section">
-  <app-sidenav></app-sidenav>
-  <router-outlet></router-outlet>
-</div>
-
-<footer>
-  <p>&copy; Copyright - PWC Graphics/Signs Unlimited 2010 - {{ year }}</p>
-</footer>
-</div>
-
-

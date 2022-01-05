@@ -10,6 +10,7 @@ import { ResourcesComponent } from './resources/resources.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { SocialsComponent } from './socials/socials.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { CircleLinkComponent } from './circle-link/circle-link.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     HomePageComponent,
     SocialsComponent,
     SidenavComponent,
+    CircleLinkComponent,
   ],
   imports: [
     BrowserModule,

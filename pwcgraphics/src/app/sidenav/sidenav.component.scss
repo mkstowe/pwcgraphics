@@ -1,0 +1,31 @@
+@import "/src/variables.scss";
+
+.wrapper {
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+
+    .tab {
+        background-color: $black;
+        padding: 20px 15%;
+        border-top: 1px solid $gray;
+        transition: $transition;
+
+        &:first-child {
+            border: none;
+        }
+    }
+
+    .tab:hover {
+        background-color: $gray;
+        transition: $transition;
+    }
+
+    a {
+        color: $white;
+        font-size: 24px;
+    }
+}
