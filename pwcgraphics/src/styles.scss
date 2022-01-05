@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~minireset.css";
+@import "./variables.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600&display=swap');
+
+
+html {
+    font-family: "Lato", sans-serif;
+    // overflow: hidden;
+    font-size: 22px;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+.is-bold {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+.is-uppercase {
+    text-transform: uppercase;
+}
