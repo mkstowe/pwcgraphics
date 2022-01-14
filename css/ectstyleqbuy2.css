@@ -1,0 +1,109 @@
+/*
+ * This code is copyright (c) ViciSoft SL, all rights reserved.
+ * The contents of this file are protected under law as the intellectual property
+ * of ViciSoft SL. Any use, reproduction, disclosure or copying
+ * of any kind without the express and written permission of ViciSoft SL is forbidden.
+ * Author: Vince Reid, vincereid@gmail.com
+ *
+ * Quick Buy Layout 2 for Ecommerce Plus Templates
+ *
+ * Last Modified: 2021-10-08
+ */
+div.qbuywrapper div.prodimage{
+width:auto;
+float:none;
+margin:25px 25px 5px 25px;
+border:0px;
+text-align:center;
+min-height:auto;
+}
+div.qbuywrapper div.prodname{
+float:none;
+width:auto;
+border-bottom:1px solid #ccc;
+font-size:1.3em;
+text-align:left;
+}
+div.qbuywrapper div.listprice,
+div.qbuywrapper div.prodcurrency,
+div.qbuywrapper div.prodinstock,
+div.qbuywrapper div.proddescription,
+div.qbuywrapper div.proddateadded,
+div.qbuywrapper div.discountsapply,
+div.qbuywrapper div.eachproddiscount,
+div.qbuywrapper div.proddiscountexempt,
+div.qbuywrapper div.discountsnotapply,
+div.qbuywrapper div.prodnoapplydiscounts,
+div.qbuywrapper div.prodmanufacturer,
+div.qbuywrapper div.prodsku,
+div.qbuywrapper div.prodid,
+div.qbuywrapper div.prodminquant,
+div.qbuywrapper div.prodoptions,
+div.qbuywrapper div.prodprice{
+float:none;
+width:auto;
+text-align:left;
+}
+div.qbuywrapper div.prodrating{
+float:right;
+width:auto;
+text-align:right;
+}
+div.qbuywrapper div.prodoptions{
+margin-bottom:6px;
+}
+div.qbuywrapper div.optiontext{
+width:40%;
+margin:6px 0px;
+font-size:1.2em;
+}
+div.qbuywrapper div.option{
+width:60%;
+margin:2px 10px;
+}
+div.qbuywrapper div.prodprice, div.qbuywrapper div.listprice{
+font-size:1.3em;
+}
+div.qbuywrapper div.prodcurrency{
+margin:0px;
+}
+div.qbuywrapper input.buybutton, div.qbuywrapper input.detaillink, div.qbuywrapper input.prodnotifystock,
+div.qbuywrapper button.buybutton, div.qbuywrapper button.detaillink, div.qbuywrapper button.prodnotifystock{
+width:100%;
+padding:8px;
+margin-top:4px;
+}
+div.qbuywrapper div.detaillink, div.qbuywrapper div.addtocart, div.qbuywrapper div.prodaddtocartquant{
+float:none;
+width:60%;
+margin:0px;
+min-width:200px;
+}
+div.qbuywrapper div.prodaddtocartquant input.buybutton,
+div.qbuywrapper div.prodaddtocartquant button.buybutton{
+	margin:0;
+}
+div.qbuywrapper div.prodaddtocartquant, div.qbuywrapper div.detaillink, div.qbuywrapper div.addtocart{
+margin:4px 0;
+}
+div.qbuywrapper div.prodaddtocartquant div.quantity0div, div.qbuywrapper div.prodaddtocartquant div.quantity1div, div.qbuywrapper div.prodaddtocartquant div.quantity2div, div.qbuywrapper div.prodaddtocartquant .prodquantity0input{
+margin:0 4px 0 0;
+}
+/* Breakpoint 640px */
+@media screen and (max-width:640px){
+	div.qbuywrapper div.prodrating{
+	width:auto;
+	float:none;
+	text-align:left;
+	}
+	div.qbuywrapper div.prodoptioncontainer{
+	display:block;
+	}
+	div.qbuywrapper div.detaillink,
+	div.qbuywrapper div.addtocart,
+	div.qbuywrapper div.prodaddtocartquant,
+	div.qbuywrapper div.optiontext,
+	div.qbuywrapper div.option{
+	width:auto;
+	}
+}

@@ -1,0 +1,331 @@
+/*
+ * This code is copyright (c) ViciSoft SL, all rights reserved.
+ * The contents of this file are protected under law as the intellectual property
+ * of ViciSoft SL. Any use, reproduction, disclosure or copying
+ * of any kind without the express and written permission of ViciSoft SL is forbidden.
+ * Author: Vince Reid, vincereid@gmail.com
+ *
+ * Product Details Layout 2 for Ecommerce Plus Templates
+ *
+ * Last Modified: 2021-10-08
+ */
+div.detailimage{
+margin:10px 0;
+text-align:center;
+}
+div.detailthumbnailimage{
+text-align:center;
+}
+img.detailimage{
+max-width:100%;
+height:auto;
+}
+div.detailcheckoutbutton{
+clear:both;
+}
+div.detailname h1{
+font-size:1.8em;
+margin:14px;
+width:70%;
+border-bottom:1px solid #eee;
+}
+div.detailreviewstars{
+float:right;
+margin:14px;
+}
+div.detaildiscountsapply{
+margin:1px 14px;
+float:none;
+}
+div.detaildiscounts{
+margin:2px 0 0 14px;
+color:#EA8626;
+}
+span.detaildiscountsapply{
+margin:2px 0 0 14px;
+}
+div.detailprice{
+font-size:1.5em;
+font-weight:bold;
+margin:4px 14px;
+}
+div.detaillistprice{
+color:#DA6A1E;
+margin:4px 14px;
+font-size:1.5em;
+}
+div.detailcurrency{
+font-size:0.8em;
+color:#666;
+margin:0px 0px 10px 14px;
+}
+div.detailinstock{
+margin:4px 14px;
+color:#666;
+float:none;
+}
+div.detailshortdescription{
+font-size:1.1em;
+margin:14px;
+padding:8px;
+line-height:1.8em;
+width:80%;
+background:#f2f2f2;
+border-radius:4px;
+border:1px solid #ddd;
+clear:left;
+}
+div.detaildescription{
+font-size:0.9em;
+padding:14px;
+line-height:1.8em;
+clear:both;
+}
+div.detaildescription::after{
+content:"";
+clear:both;
+display:table;
+}
+div.detailshortdescription p{
+padding:0px;
+}
+div.detailmanufacturer,div.detailid,div.detaildateadded,div.detailsku{
+margin:4px 14px;
+color:#666;
+float:none;
+}
+span.detailidlabel,div.detaildateaddedlabel,span.detailinstocklabel,span.detailmanufacturerlabel{
+font-weight:bold;
+}
+div.detaildateaddedlabel{
+display:inline-block;
+margin-right:4px;
+}
+div.detaildateaddeddate{
+display:inline-block;
+}
+div.searchwords{
+font-size:0.9em;
+margin:10px;
+padding:4px;
+line-height:1.8em;
+background:#f2f2f2;
+border-radius:4px;
+border:1px solid #ddd;
+}
+div.detailoptions{
+width:58%;
+margin:12px 5px;
+padding:4px 14px;
+}
+div.detailoptiontext{
+float:left;
+margin:2px 1px 4px 0px;
+width:48%;
+font-size:1.2em;
+}
+div.detailoption{
+float:left;
+width:96%;
+margin-left:16px;
+}
+input.detailprodoption{
+margin-right:6px;
+}
+select.detailprodoption{
+display:block;
+padding:10px 70px 10px 13px;
+max-width:100%;
+width:100%;
+height:auto;
+border:1px solid #ccc;
+border-radius:3px;
+background:url("../images/select-menu-arrow.png") right center no-repeat;
+background-color:#fff;
+color:#444444;
+font-size:12px;
+line-height:16px;
+appearance:none;
+-webkit-appearance:none;
+-moz-appearance:none; }
+select.detailprodoption option{ padding:0 4px; }
+.detailoption input[type="radio"]{
+margin-top:-2px;
+}
+div.detailmultioptiontext{
+padding:4px;
+clear:none;
+}
+input.multioption{
+border:1px solid #ccc;
+padding:4px;
+}
+div.previousnext{
+margin:20px 0px;
+text-align:center;
+font-size:0.9em;
+clear:both;
+}
+div.detailquantity{
+float:left;
+margin:6px 0 20px 14px;
+clear:left;
+}
+div.detailquantitytext{
+float:left;
+padding:0px 12px;
+margin-top:10px;
+font-size:1.2em;
+display:none;
+}
+div.detailquantity2div{
+margin:6px 3px 6px 0px;
+}
+input.detailquantity0input{
+border:1px solid #ccc;
+padding:6px 20px;
+margin:8px 16px 0px 2px;
+}
+div.detailaddtocart{
+float:left;
+text-align:left;
+margin:9px 0 20px 14px;
+width:48%;
+clear:right;
+}
+div.detailaddtocartquant{
+width:58%;
+margin:9px 0 20px 14px;
+padding:0;
+display:flex;
+align-items:center;
+}
+div.detailaddtocartquant div.quantity0div, div.detailaddtocartquant div.quantity1div, div.detailaddtocartquant div.quantity2div, div.detailaddtocartquant .detailquantity0input{
+margin:0;
+}
+div.detailaddtocartquant > .detailaddtocart, div.detailaddtocartquant > .detailquantity{
+	float:none;
+	width:auto;
+	margin:0;
+}
+div.detailaddtocartquant > .detailquantity{
+	margin-right:4px;
+}
+div.detailaddtocartquant > .detailaddtocart{
+	flex-grow:1;
+}
+input.detailbuybutton,button.detailbuybutton,input.detailnotifystock,button.detailnotifystock,input.detailwishlist,button.detailwishlist,input.detailoutofstock,button.detailoutofstock{
+width:98%;
+padding:8px 5px;
+font-size:16px;
+margin-top:2px;
+}
+input.detailwishlist{
+font-size:10px;
+}
+div.detailoutofstock{
+float:left;
+width:48%;
+}
+div.detailnotifystock{
+font-size:1.4em;
+padding-top:16px;
+float:left;
+width:48%;
+text-align:center;
+}
+span.numreviews{
+font-size:1.2em
+}
+hr.review{
+height:0;
+border-width:1px 0 0 0;
+border-style:solid;
+border-color:#bbb;
+padding:4px;
+margin-top:6px;
+}
+div.reviewprod{
+background-color:#eee;
+padding:10px;
+}
+input.askaquestion, input.emailfriend{
+background:#2868B2;
+color:#fff;
+height:21px;
+border:0;
+border-radius:4px;
+font-size:12px;
+cursor:pointer;
+font-family:FontAwesome, sans-serif;
+}
+input.askaquestion:hover, input.emailfriend:hover{
+background:#1BABF1;
+}
+div.socialmediabuttons{
+margin:10px auto;
+text-align:center;
+clear:both;
+}
+div.socialmediabutton{
+display:inline-block;
+padding:6px;
+}
+div.reltabproduct{
+clear:both;
+}
+div.reltabimage{
+float:left;
+width:20%;
+padding:4px;
+clear:left;
+text-align:center;
+}
+img.reltabimage{
+max-width:100%;
+height:auto;
+}
+div.reltabname,div.reltabdescription{
+margin-top:8px;
+}
+div.reltabname{
+font-weight:bold;
+}
+/* Breakpoint 1200px */
+@media screen and (max-width:1200px){
+div.detailaddtocart{
+width:30%;
+}
+div.detailoption{
+float:left;
+width:51%;
+}
+}
+@media screen and (max-width:870px){
+div.detailreviewstars{
+float:none;
+text-align:left;
+}
+div.detailshortdescription,div.detailoptions{
+width:auto;
+}
+div.detailoption,div.detailaddtocartquant{
+width:71%;
+}
+div.detailaddtocart{
+width:74%;
+}
+div.detailquantity{
+}
+input.detailquantity0input{
+margin:2px 6px 0px 2px;
+}
+div.detailid,div.detailsku,div.detaildateadded,div.detailmanufacturer{
+}
+div.detaildateaddedlabel{
+padding-left:0px
+}
+}
+/*This is the fifth breakpoint and contains styles for screens 440px to 360px*/
+@media screen and (max-width:440px){
+}
