@@ -1,0 +1,47 @@
+$yellow: #fcc605;
+$yellow-2: #856800;
+$black: #2d2d2d;
+$gray: #414141;
+$gray-2: #555;
+$white: #f3f3f3;
+
+$trans: 200ms;
+
+.ectbutton {
+    transition: $trans !important;
+    background-color: $black !important;
+
+    &:hover {
+        background-color: $yellow !important;
+    }
+}
+
+.etclink {
+    transition: $trans !important;
+    color: $yellow-2 !important;
+
+    &:hover {
+        color: $gray !important;
+    }
+}
+
+.categories a, .prodname a, .prodimage a {
+    color: $black !important;
+    transition: $trans !important;
+
+    &:hover {
+        color: $gray !important;
+    }
+}
+
+.prodoption {
+    color: $black !important;
+}
+
+.catnavigation .ectlink {
+    color: $yellow-2 !important;
+}
+
+.detailname h1, .detailprice, .prodprice, .prodname {
+    font-weight: bold !important;
+}

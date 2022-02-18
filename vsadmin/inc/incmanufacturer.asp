@@ -1,1 +1,0 @@
-The Manufacturers admin page is now incorporated into product attributes

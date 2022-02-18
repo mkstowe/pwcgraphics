@@ -1,0 +1,38 @@
+.ectbutton {
+  -webkit-transition: 200ms !important;
+  transition: 200ms !important;
+  background-color: #2d2d2d !important;
+}
+
+.ectbutton:hover {
+  background-color: #fcc605 !important;
+}
+
+.etclink {
+  -webkit-transition: 200ms !important;
+  transition: 200ms !important;
+  color: #856800 !important;
+}
+
+.etclink:hover {
+  color: #414141 !important;
+}
+
+.categories a, .prodname a {
+  color: #2d2d2d !important;
+  -webkit-transition: 200ms !important;
+  transition: 200ms !important;
+}
+
+.categories a:hover, .prodname a:hover {
+  color: #414141 !important;
+}
+
+.catnavigation .ectlink {
+  color: #856800 !important;
+}
+
+.detailname h1, .detailprice, .prodprice, .prodname {
+  font-weight: bold !important;
+}
+/*# sourceMappingURL=shopping-cart.css.map */
