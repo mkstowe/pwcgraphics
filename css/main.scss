@@ -1,3 +1,4 @@
+
 $yellow: #fcc605;
 $yellow-2: #856800;
 $black: #2d2d2d;
@@ -9,8 +10,6 @@ $trans: 200ms;
 html,
 body {
 	height: 100%;
-
-
 }
 
 #top-section .container-fluid {
@@ -224,26 +223,70 @@ footer {
 }
 
 .font-header {
-	font-size: 32px;
+	font-size: 24px;
 	font-weight: bold;
 }
 
 .font-preview {
-	font-size: 24px;
+	font-size: 32px;
 }
 
-#helvetica {
-	font-family: helvetica;
+#benguiat .font-preview {
+	font-family: benguiat;
 }
 
-#times {
-	font-family: times;
+#big-cheese .font-preview {
+	font-family: big_cheese;
 }
 
-#impact {
-	font-family: impact;
+#blacklite .font-preview {
+	font-family: blacklite;
 }
 
-#courier {
-	font-family: courier;
+#eras .font-preview {
+	font-family: eras;
+}
+
+#friz-quad .font-preview {
+	font-family: friz_quad;
+}
+
+#handel .font-preview {
+	font-family: handel;
+}
+
+#hot-rod .font-preview {
+	font-family: hot_rod;
+}
+
+#marquee .font-preview {
+	font-family: marquee;
+}
+
+#roadhouse .font-preview {
+	font-family: roadhouse;
+}
+
+#serpentine .font-preview {
+	font-family: serpentine;
+}
+
+#sign-painter .font-preview {
+	font-family: sign_painter;
+}
+
+#staccato .font-preview {
+	font-family: staccato;
+}
+
+#swiss .font-preview {
+	font-family: swiss;
+}
+
+#tallington .font-preview {
+	font-family: tallington;
+}
+
+#vasona .font-preview {
+	font-family: vasona;
 }
