@@ -1,0 +1,186 @@
+/*
+ * This code is copyright (c) ViciSoft SL, all rights reserved.
+ * The contents of this file are protected under law as the intellectual property
+ * of ViciSoft SL. Any use, reproduction, disclosure or copying
+ * of any kind without the express and written permission of ViciSoft SL is forbidden.
+ * Author: Vince Reid, vincereid@gmail.com
+ *
+ * Quick Buy Layout 3 for Ecommerce Plus Templates
+ *
+ * Last Modified: 2021-12-09
+ */
+div.qbuywrapper div.prodimage {
+	width: 40%;
+	float: left;
+	padding: 34px 4px 0 4px;
+	margin: 0;
+	border: none;
+}
+div.qbuywrapper div.prodname {
+	float: right;
+	width: 60%;
+	font-size: 1.3em;
+	text-align: left;
+}
+div.qbuywrapper div.discountsapply {
+	float: right;
+	width: 60%;
+}
+div.qbuywrapper div.prodid {
+	float: right;
+	width: 60%;
+	text-align: left;
+}
+div.qbuywrapper div.prodsku {
+	float: right;
+	width: 60%;
+	text-align: left;
+}
+div.qbuywrapper div.prodmanufacturer {
+	float: right;
+	width: 60%;
+	text-align: left;
+}
+div.qbuywrapper div.eachproddiscount,
+div.qbuywrapper div.proddiscountexempt,
+div.qbuywrapper div.discountsnotapply,
+div.qbuywrapper div.prodnoapplydiscounts {
+	float: right;
+	width: 60%;
+	text-align: left;
+	margin: 0;
+}
+div.qbuywrapper div.proddateadded {
+	float: right;
+	width: 60%;
+	text-align: left;
+}
+div.qbuywrapper div.prodinstock {
+	float: right;
+	width: 60%;
+	text-align: left;
+}
+div.qbuywrapper div.proddescription {
+	float: right;
+	width: 60%;
+	text-align: left;
+	clear: right;
+}
+div.qbuywrapper div.prodrating {
+	float: right;
+	text-align: right;
+}
+div.qbuywrapper div.prodminquant {
+	float: right;
+	width: 60%;
+	text-align: left;
+}
+div.qbuywrapper div.prodoptions {
+	float: right;
+	width: 60%;
+	text-align: left;
+	padding: 0;
+	margin: 0 0 4px 0;
+	clear: right;
+}
+div.qbuywrapper div.optiontext {
+	text-align: left;
+	margin: 6px 0px;
+	font-size: 1.2em;
+}
+div.qbuywrapper div.option {
+	text-align: left;
+	margin: 0px 10px;
+}
+div.qbuywrapper div.ectoptioncontainer {
+	display: block;
+}
+div.qbuywrapper div.prodprice {
+	float: right;
+	width: 60%;
+	font-size: 1.4em;
+	text-align: left;
+}
+div.qbuywrapper div.listprice {
+	float: right;
+	width: 60%;
+	text-align: left;
+	font-size: 1.2em;
+	margin: 8px 0px 0px 0px;
+}
+div.qbuywrapper div.prodcurrency {
+	float: right;
+	width: 60%;
+	margin: 0px;
+	text-align: left;
+}
+div.qbuywrapper div.addtocart,
+div.qbuywrapper div.detaillink,
+div.qbuywrapper div.addtocartquant {
+	float: right;
+	width: 60%;
+	margin: 3px 0;
+}
+div.qbuywrapper input.buybutton,
+div.qbuywrapper input.detaillink,
+div.qbuywrapper input.prodnotifystock,
+div.qbuywrapper button.buybutton,
+div.qbuywrapper button.detaillink,
+div.qbuywrapper button.prodnotifystock {
+	width: 100%;
+	padding: 8px;
+	margin-top: 4px;
+}
+div.qbuywrapper div.prodaddtocartquant div.quantity0div,
+div.qbuywrapper div.prodaddtocartquant div.quantity1div,
+div.qbuywrapper div.prodaddtocartquant div.quantity2div,
+div.qbuywrapper div.prodaddtocartquant .prodquantity0input {
+	margin: 0 4px 0 0;
+}
+div.qbuywrapper div.prodaddtocartquant input.buybutton,
+div.qbuywrapper div.prodaddtocartquant button.buybutton {
+	margin: 0;
+}
+div.qbuywrapper div.prodoptioncontainer {
+	display: block;
+}
+@media screen and (max-width: 640px) {
+	div.qbuywrapper div.addtocart,
+	div.qbuywrapper div.addtocartquant,
+	div.qbuywrapper div.detaillink,
+	div.qbuywrapper div.discountsapply,
+	div.qbuywrapper div.listprice,
+	div.qbuywrapper div.prodcurrency,
+	div.qbuywrapper div.proddateadded,
+	div.qbuywrapper div.proddescription,
+	div.qbuywrapper div.proddiscounts,
+	div.qbuywrapper div.prodinstock,
+	div.qbuywrapper div.prodname,
+	div.qbuywrapper div.prodrating,
+	div.qbuywrapper div.prodsku,
+	div.qbuywrapper div.prodmanufacturer,
+	div.qbuywrapper div.prodid,
+	div.qbuywrapper div.prodminquant,
+	div.qbuywrapper div.prodoptions,
+	div.qbuywrapper div.prodprice {
+		float: none;
+		width: auto;
+		text-align: left;
+	}
+
+	div.qbuywrapper div.prodimage {
+		float: none;
+		width: auto;
+	}
+	div.qbuywrapper div.prodcurrency {
+		margin: 0px;
+	}
+	div.qbuywrapper div.addtocart input.buybutton {
+		width: 100%;
+		padding: 8px;
+	}
+	div.qbuywrapper a.detaillink {
+		width: 50%;
+		float: right;
+	}
+}

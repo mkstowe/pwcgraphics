@@ -1,0 +1,201 @@
+/*
+ * This code is copyright (c) ViciSoft SL, all rights reserved.
+ * The contents of this file are protected under law as the intellectual property
+ * of ViciSoft SL. Any use, reproduction, disclosure or copying
+ * of any kind without the express and written permission of ViciSoft SL is forbidden.
+ * Author: Vince Reid, vincereid@gmail.com
+ *
+ * Product Page Layout 2 for Ecommerce Plus Templates
+ *
+ * Last Modified: 2021-12-09
+ */
+div.prodfilter {
+	display: inline-block;
+	padding: 2px;
+	margin-bottom: 4px;
+}
+div.prodfilterbar {
+	margin-bottom: 14px;
+}
+div.filtertext {
+	padding: 13px 6px;
+}
+div.product {
+	min-height: 260px;
+	border: none;
+}
+div.prodimage {
+	min-height: 180px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 2px;
+	padding: 6px;
+	border: 1px solid gray;
+	width: 100%;
+	box-sizing: border-box;
+}
+div.prodimage:hover {
+	border: 1px solid #006aba;
+}
+img.prodimage {
+	max-width: 100%;
+	height: auto;
+}
+div.prodname {
+	padding-top: 6px;
+	font-size: 1.2em;
+	margin: 4px 0px;
+}
+div.prodinstock {
+	padding: 4px 0px;
+}
+.prodratinglink {
+	font-size: 0.9em;
+}
+div.prodrating {
+	text-align: right;
+	margin: 4px 0px;
+}
+div.listprice {
+	font-size: 1.1em;
+	margin: 2px 0px;
+}
+span.yousave {
+	background: #0065a7;
+	color: #fff;
+	margin: 4px 0px;
+	font-size: 0.9em;
+}
+div.prodprice {
+	margin: 2px 0px;
+	font-size: 1.1em;
+}
+div.prodcurrency {
+	font-size: 0.8em;
+	color: #666;
+	margin: 0px;
+}
+div.allproddiscounts {
+	margin: 4px 6px;
+}
+.proddiscounts,
+.proddiscountsapply {
+	color: #da6a1e;
+	margin: 0;
+}
+div.prodmanufacturer {
+	margin: 4px 0px;
+}
+div.prodsku {
+	margin: 4px 0px;
+}
+div.proddescription {
+	margin: 8px 0px;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	clear: both;
+}
+div.prodoptions {
+	float: none;
+	clear: both;
+	padding: 8px 0;
+}
+div.optiontext {
+	margin: 4px 0px;
+}
+div.option {
+	margin: 4px 0px;
+}
+select.prodoption {
+}
+div.configbutton {
+	margin: 4px 0px;
+}
+div.outofstock {
+	text-align: center;
+	margin: 4px 0px;
+	font-weight: bold;
+	width: 98%;
+}
+div.prodid,
+div.proddateadded {
+	margin: 4px 0px;
+}
+div.proddateaddedlabel {
+	float: left;
+}
+div.proddateaddeddate {
+	float: left;
+	margin-left: 4px;
+}
+div.multioptiontext {
+	width: 180px;
+}
+div.detaillink {
+	float: left;
+	width: 49%;
+	text-align: center;
+	padding: 0px;
+	margin: 10px 1px 0px 0px;
+}
+div.qbuybutton,
+div.addtocart,
+div.prodaddtocartquant {
+	float: right;
+	width: 49%;
+	text-align: center;
+	padding: 0px;
+	margin: 10px 0px 0px 1px;
+}
+input.detaillink,
+input.qbuybutton,
+input.buybutton,
+input.prodnotifystock,
+input.prodwishlist,
+input.prodoutofstock,
+button.detaillink,
+button.qbuybutton,
+button.buybutton,
+button.prodnotifystock,
+button.prodwishlist,
+button.prodoutofstock {
+	width: 100%;
+	text-align: center;
+	padding: 6px;
+	margin: 0px;
+	border: 0px;
+	color: #fff;
+	border: 0;
+	border-radius: 4px;
+	-webkit-appearance: none;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+	font-family: FontAwesome, sans-serif;
+}
+input.prodwishlist,
+button.prodwishlist {
+	font-size: 10px;
+}
+div.prodaddtocartquant div.quantity2div {
+	width: 80px;
+}
+div.prodaddtocartquant > .addtocart {
+	margin: 0 0 0 4px;
+	text-align: left;
+}
+div.prodaddtocartquant input.buybutton,
+div.prodaddtocartquant button.buybutton {
+	margin: 0;
+	width: 100%;
+}
+div.pagenumbers {
+	text-align: center;
+	margin: 4px 0px;
+}
+@media screen and (max-width: 870px) {
+	div.prodrating {
+		float: none;
+		text-align: left;
+	}
+}
